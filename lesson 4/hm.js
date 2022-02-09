@@ -1,8 +1,8 @@
 console.log(`створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б`);
 
 function rectangle(a, b){
-    let S = a*b;
-    return S;
+    let s = a*b;
+    return s;
 }
 console.log(rectangle(10,15));
 

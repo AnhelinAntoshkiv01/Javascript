@@ -64,7 +64,7 @@ console.log(`створити функцію яка приймає масив ч
 function sum(arr){
     let result = 0;
     for (const arrElement of arr) {
-        result = result += arrElement;
+        result = result + arrElement;
     }
     return result;
 }
@@ -75,7 +75,11 @@ console.log(sum(array));
 console.log(`створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.`);
 
 function average(nums) {
-    return nums.reduce((a, b) => (a + b)) / nums.length;
+    let sum = 0;
+    for (const num of nums) {
+       sum += num;
+    }
+    return sum/nums.length;
 }
 console.log(average(array));
 
@@ -132,8 +136,8 @@ console.log(`Функція приймає масив та робить з нь�
 
 function reverse(arr){
     let a = [];
-    for (j=0; j<arr.length; j++){
-        a[j] = arr[(arr.length - 1) - j]
+    for (i=0; i<arr.length; i++){
+        a[i] = arr[(arr.length - 1) - i]
     }
     return a;
 }
