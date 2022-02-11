@@ -136,7 +136,7 @@ console.log(`Функція приймає масив та робить з нь�
 
 function reverse(arr){
     let a = [];
-    for (i=0; i<arr.length; i++){
+    for (let i=0; i<arr.length; i++){
         a[i] = arr[(arr.length - 1) - i]
     }
     return a;
