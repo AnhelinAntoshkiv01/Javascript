@@ -29,7 +29,7 @@ console.log(str3.toLowerCase());
 console.log(`Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.`);
 
 let strDirty = ' dirty string   ';
-console.log(strDirty.replaceAll(` `, ``));
+console.log(strDirty.trim());
 
 
 
