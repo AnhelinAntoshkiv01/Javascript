@@ -13,7 +13,8 @@ form.append(input1, input2);
 let btn = document.createElement(`button`);
 btn.innerText = `Send`;
 btn.onclick = function () {
-    localStorage.setItem(`key1`, JSON.stringify(form))
+    let result = [input1.value, input2.value];
+    localStorage.setItem(`key1`, JSON.stringify(result))
 }
 
 document.body.append(form, btn);
@@ -36,6 +37,7 @@ form1.append(input3, input4, input5);
 let btn1 = document.createElement(`button`);
 btn1.innerText = `Send`;
 btn1.onclick = function () {
-    localStorage.setItem(`key2`, JSON.stringify(form1));
+    let result1 = [input3.value, input4.value, input5.value];
+    localStorage.setItem(`key2`, JSON.stringify(result1));
 }
 document.body.append(form1, btn1);
