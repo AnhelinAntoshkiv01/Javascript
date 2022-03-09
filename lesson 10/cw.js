@@ -5,25 +5,25 @@ console.log(`створити 2 форми  по 2 інпути в кожній.
 let form1 = document.createElement(`form`);
 form1.style.margin = `10px`;
 let input1 = document.createElement(`input`);
-input1.setAttribute(`name`, `Cesar`);
+input1.setAttribute(`name`, `input1`);
 input1.style.margin = `5px`;
 let input2 = document.createElement(`input`);
-input2.setAttribute(`surname`, `Keishan`);
+input2.setAttribute(`surname`, `input2`);
 form1.append(input1, input2);
 
 let form2 = document.createElement(`form`);
 form2.style.margin = `10px`;
 let input3 = document.createElement(`input`);
-input3.setAttribute(`name`, `Helen`);
+input3.setAttribute(`name`, `input3`);
 input3.style.margin = `5px`;
 let input4 = document.createElement(`input`);
-input4.setAttribute(`surname`, `Reynold`);
+input4.setAttribute(`surname`, `input4`);
 form2.append(input3, input4);
 
 let btn = document.createElement(`button`);
 btn.innerText = `Go`;
 btn.onclick = function () {
-    console.log(document.forms)
+    console.log(document.forms);
 }
 
 document.body.append(form1, form2, btn);
