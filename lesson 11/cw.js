@@ -32,3 +32,7 @@ users.forEach(user => {
    div.append(divUser, btn);
    document.body.append(div);
 })
+
+let a = document.createElement(`a`);
+a.innerHTML = `<a href = "./favorites.html">Favorites</a>`;
+document.body.append(a);
