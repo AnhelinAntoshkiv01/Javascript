@@ -1,0 +1,25 @@
+.user-details{
+    background: mediumpurple;
+    margin-bottom: 10px;
+}
+.details-button{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+    background: orangered;
+    margin: 10px;
+    width: 100px;
+    margin-left: calc(9.5% - 50px);
+    margin-right: calc(9.5% - 50px);
+    padding: 8px;
+}
+.post > button {
+    margin: 5px;
+    display: block;
+}

@@ -1,0 +1,15 @@
+.post{
+    background: darkseagreen;
+}
+.comments{
+    background: mediumvioletred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.comments > li{
+    width: 200px;
+    background: lightpink;
+    margin: 10px;
+    padding: 10px;
+}
